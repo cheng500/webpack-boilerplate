@@ -1,1 +1,6 @@
-import './style/styles.scss'
+/**
+ * @flow
+ */
+'use strict'
+
+import './styles/styles.scss'

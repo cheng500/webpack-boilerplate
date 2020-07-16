@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode production",
-    "start": "webpack-dev-server --open --mode development --host 0.0.0.0"
+    "flow": "flow",
+    "build": "flow && webpack --mode production",
+    "start": "flow && webpack-dev-server --open --mode development --host 0.0.0.0"
   },
   "author": "",
   "license": "ISC",
@@ -14,9 +14,11 @@
   "devDependencies": {
     "@babel/core": "^7.10.4",
     "@babel/preset-env": "^7.10.4",
+    "@babel/preset-flow": "^7.10.4",
     "babel-loader": "^8.1.0",
     "css-loader": "^3.6.0",
     "file-loader": "^6.0.0",
+    "flow-bin": "^0.129.0",
     "html-loader": "^1.1.0",
     "html-webpack-plugin": "^4.3.0",
     "sass": "^1.26.10",
