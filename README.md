@@ -1,4 +1,4 @@
-# react-typing-animation
+# webpack-boilerplate
 Simple Webpack Babel Sass boilerplate
 
 ### Support
